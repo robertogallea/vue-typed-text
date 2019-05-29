@@ -1,6 +1,6 @@
 {
   "name": "vue-typed-text",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A vue plugin for rendering text-typing animation",
   "main": "dist/index.js",
   "scripts": {

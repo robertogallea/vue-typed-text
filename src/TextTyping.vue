@@ -1,9 +1,9 @@
 <template>
-    <h1 class="text-2xl lg:text-6xl">
+    <div>
         <span :class="fixedTextClass" v-html="fixedText"></span>
         <span :class="dynamicTextClass" v-html="currentText"></span>
         <span :class="caretClass" :style="{opacity: blinking ? '1': '0'}">|</span>
-    </h1>
+    </div>
 </template>
 
 <script>

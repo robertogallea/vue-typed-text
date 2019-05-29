@@ -1,5 +1,5 @@
 /*!
- * vue-typed-text v1.0.0
+ * vue-typed-text v1.0.5
  * (c) Roberto Gallea
  * Released under the MIT License.
  */
@@ -91,9 +91,7 @@ var __vue_render__ = function __vue_render__() {
 
   var _c = _vm._self._c || _h;
 
-  return _c('h1', {
-    staticClass: "text-2xl lg:text-6xl"
-  }, [_c('span', {
+  return _c('div', [_c('span', {
     "class": _vm.fixedTextClass,
     domProps: {
       "innerHTML": _vm._s(_vm.fixedText)
