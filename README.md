@@ -7,6 +7,8 @@ With this plugin you can render a typing effect on your application or website. 
 
 You can see an example on my website http://www.robertogallea.com
 
+![Example](https://robertogallea.com/storage/53/typed.gif)
+
 ## Installation
 
 You can install the package using npm with:
