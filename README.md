@@ -3,7 +3,9 @@ A vue plugin for rendering text-typing animation
 
 ## Introduction
 
-With this plugin you can render a typing effect on your application or website. It may be configured to have a fixed text, and any number of typed texts. It also allows to define speed and delays. Please check the `configuration` section for further details.
+With this plugin you can render a typing effect on your application or website. It may be configured to have a fixed text, and any number of typed texts. It also allows to define speed and delays. Please check the `configuration` section for further details.  
+
+You can see an example on my website http://www.robertogallea.com
 
 ## Installation
 
@@ -29,12 +31,12 @@ Then you can use it in your application
 
 ```html
 <text-typing fixed-text="Read while I type about"
-                            :texts="['Javascript', 'Vue', 'Anything else', 'Do you like it?']"
-                            :speed="100"
-                            :delay="3000"
-                            fixed-text-class="text-white"
-                            dynamic-text-class="text-teal-200"
-                            caret-class="text-white"></text-typing>
+             :texts="['Javascript', 'Vue', 'Anything else', 'Do you like it?']"
+             :speed="100"
+             :delay="3000"
+             fixed-text-class="text-white"
+             dynamic-text-class="text-teal-200"
+             caret-class="text-white"></text-typing>
 ```
 
 ## Configuration
