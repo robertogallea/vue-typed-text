@@ -1,0 +1,26 @@
+{
+  "name": "vue-typed-text",
+  "version": "1.0.4",
+  "description": "A vue plugin for rendering text-typing animation",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vue serve src/TextTyping.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "keywords": [
+    "vue",
+    "text",
+    "animation",
+    "typing"
+  ],
+  "author": "Roberto Gallea",
+  "license": "MIT",
+  "dependencies": {
+    "vue-runtime-helpers": "^1.0.0"
+  },
+  "devDependencies": {
+    "bili": "^4.8.0",
+    "rollup-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
